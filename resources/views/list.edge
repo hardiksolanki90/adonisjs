@@ -1,0 +1,31 @@
+
+@layout('layout.app')
+
+@section('title')
+    Signup
+@endsection
+
+@section('content')
+<div class="container">
+    <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">User Name</th>
+        <th scope="col">Email</th>
+        <th scope="col">Handle</th>
+      </tr>
+    </thead>
+    <tbody>
+      @each(user in users)
+        <tr>
+          <th scope="row">{{ user.id }}</th>
+          <td>{{ user.username }}</td>
+          <td>{{ user.email }}</td>
+          <td>@mdo</td>
+        </tr>
+      @endeach
+    </tbody>
+  </table>
+</div>
+@endsection
