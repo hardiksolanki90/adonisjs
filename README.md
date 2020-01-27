@@ -12,6 +12,7 @@ In this exmple i have done Custom authentication with middleware
 1. Authentication
 2. Edge template engine
 3. Migrations and seeds
+4. Validator
 
 #below methods i will do in next session
 1. Bodyparser
