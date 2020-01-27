@@ -8,7 +8,7 @@ In this exmple i have done Custom authentication with middleware
 2. Edge template engine is used in adonisjs its location in resources\views folder.
 3. Migrations and seeds same as work like laravel.
 
-# Listed Functionlly i have done
+# Listed Functionlly I have done
 1. Authentication
 2. Edge template engine
 3. Migrations and seeds
